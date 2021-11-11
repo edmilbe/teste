@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-d7ny)8o+=(ry1@6jrl+pb+!d=!a+sger3ad4hg#6z6g+68=^yu
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'epardal-heroku.herokuapp.com'
+    'epardal-heroku.herokuapp.com',
+    '127.0.0.1'
 ]
 
 
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'frontend',
 ]
 
 MIDDLEWARE = [
